@@ -15,9 +15,8 @@ export const Header = () => {
         <Image
           src="https://links.papareact.com/qd3"
           alt="Image escrito AirBNB"
-          objectFit="contain"
-          objectPosition="left"
           fill
+          className="object-contain  object-left"
         />
       </div>
       {/* midle */}
@@ -35,8 +34,8 @@ export const Header = () => {
         <GlobeAltIcon className="h-6 cursor-pointer-" />
 
         <div className="flex items-center space-x-2 border-2 p-2 rounded-full">
-          <Bars3Icon  className="h-6"/>
-          <UserCircleIcon  className="h-6"/>
+          <Bars3Icon className="h-6" />
+          <UserCircleIcon className="h-6" />
         </div>
       </div>
     </header>
