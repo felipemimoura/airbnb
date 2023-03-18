@@ -1,3 +1,4 @@
+import { Banner } from "@/components/Banner";
 import { Header } from "@/components/Header";
 import { Inter } from "next/font/google";
 import Head from "next/head";
@@ -14,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <h1>teste</h1>
+      <Banner />
         {/*Header*/}
         {/*Banner*/}
         {/*Explorer */}
